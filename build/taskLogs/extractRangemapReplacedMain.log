@@ -1,0 +1,10 @@
+Unsupposrted library path: C:\Users\User\Documents\Schule\4BHIF\Games\Minecraft\DemoMod\build\classes\api
+Unsupposrted library path: C:\Users\User\Documents\Schule\4BHIF\Games\Minecraft\DemoMod\build\resources\api
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "at/kaindorf/demomod/DemoMod.java" md5: 76003837fa07f5996368b7f1b2dfcb3b
+endProcessing "at/kaindorf/demomod/DemoMod.java"
+
+startProcessing "com/example/examplemod/ExampleMod.java" md5: ad74a1961a0cb79c5bce83ee95afc687
+endProcessing "com/example/examplemod/ExampleMod.java"
+

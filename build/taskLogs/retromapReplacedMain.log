@@ -1,0 +1,21 @@
+Processing 2 files
+Start Processing: at/kaindorf/demomod/DemoMod.java
+Rename field net/minecraft/init/Blocks/DIRT[895,899]::DIRT->field_150346_d
+Import: net.minecraft.init.Blocks
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.Mod.EventHandler
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: org.apache.logging.log4j.Logger
+End  Processing: at/kaindorf/demomod/DemoMod.java
+
+Start Processing: com/example/examplemod/ExampleMod.java
+Rename field net/minecraft/init/Blocks/DIRT[918,922]::DIRT->field_150346_d
+Import: net.minecraft.init.Blocks
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.Mod.EventHandler
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: org.apache.logging.log4j.Logger
+End  Processing: com/example/examplemod/ExampleMod.java
+

@@ -1,0 +1,102 @@
+Unsupposrted library path: C:\Users\User\Documents\Schule\4BHIF\Games\Minecraft\DemoMod\build\classes\api
+Unsupposrted library path: C:\Users\User\Documents\Schule\4BHIF\Games\Minecraft\DemoMod\build\resources\api
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "at/kaindorf/demomod/DemoMod.java" md5: 76003837fa07f5996368b7f1b2dfcb3b
+@|at/kaindorf/demomod/DemoMod.java|8|27|at.kaindorf.demomod|package|at.kaindorf.demomod|(file)
+Class Start: at.kaindorf.demomod.DemoMod
+   @|at/kaindorf/demomod/DemoMod.java|340|343|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|at/kaindorf/demomod/DemoMod.java|344|349|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|at/kaindorf/demomod/DemoMod.java|352|359|DemoMod|class|at.kaindorf.demomod.DemoMod|false
+   @|at/kaindorf/demomod/DemoMod.java|360|365|MODID|field|at.kaindorf.demomod.DemoMod|MODID
+   @|at/kaindorf/demomod/DemoMod.java|367|371|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|at/kaindorf/demomod/DemoMod.java|374|381|DemoMod|class|at.kaindorf.demomod.DemoMod|false
+   @|at/kaindorf/demomod/DemoMod.java|382|386|NAME|field|at.kaindorf.demomod.DemoMod|NAME
+   @|at/kaindorf/demomod/DemoMod.java|388|395|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|at/kaindorf/demomod/DemoMod.java|398|405|DemoMod|class|at.kaindorf.demomod.DemoMod|false
+   @|at/kaindorf/demomod/DemoMod.java|406|413|VERSION|field|at.kaindorf.demomod.DemoMod|VERSION
+   @|at/kaindorf/demomod/DemoMod.java|428|435|DemoMod|class|at.kaindorf.demomod.DemoMod|false
+   @|at/kaindorf/demomod/DemoMod.java|462|468|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|462|468|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|469|474|MODID|field|at.kaindorf.demomod.DemoMod|MODID|
+   @|at/kaindorf/demomod/DemoMod.java|512|518|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|512|518|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|519|523|NAME|field|at.kaindorf.demomod.DemoMod|NAME|
+   @|at/kaindorf/demomod/DemoMod.java|560|566|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|560|566|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|567|574|VERSION|field|at.kaindorf.demomod.DemoMod|VERSION|
+   @|at/kaindorf/demomod/DemoMod.java|604|610|Logger|class|org.apache.logging.log4j.Logger|false
+   @|at/kaindorf/demomod/DemoMod.java|604|610|Logger|class|org.apache.logging.log4j.Logger|false
+   @|at/kaindorf/demomod/DemoMod.java|611|617|logger|field|at.kaindorf.demomod.DemoMod|logger|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|at/kaindorf/demomod/DemoMod.java|688|693|event|param|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|at/kaindorf/demomod/DemoMod.java|625|637|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|at/kaindorf/demomod/DemoMod.java|654|661|preInit|method|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|at/kaindorf/demomod/DemoMod.java|662|687|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|at/kaindorf/demomod/DemoMod.java|709|715|logger|field|at.kaindorf.demomod.DemoMod|logger
+      @|at/kaindorf/demomod/DemoMod.java|718|723|event|param|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|at/kaindorf/demomod/DemoMod.java|724|733|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|at/kaindorf/demomod/DemoMod.java|806|811|event|param|at.kaindorf.demomod.DemoMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|at/kaindorf/demomod/DemoMod.java|749|761|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|at/kaindorf/demomod/DemoMod.java|778|782|init|method|at.kaindorf.demomod.DemoMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|at/kaindorf/demomod/DemoMod.java|783|805|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|at/kaindorf/demomod/DemoMod.java|856|862|logger|field|at.kaindorf.demomod.DemoMod|logger
+      @|at/kaindorf/demomod/DemoMod.java|863|867|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|at/kaindorf/demomod/DemoMod.java|888|894|Blocks|class|net.minecraft.init.Blocks|false
+      @|at/kaindorf/demomod/DemoMod.java|895|899|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|at/kaindorf/demomod/DemoMod.java|900|915|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : at.kaindorf.demomod.DemoMod
+endProcessing "at/kaindorf/demomod/DemoMod.java"
+
+startProcessing "com/example/examplemod/ExampleMod.java" md5: ad74a1961a0cb79c5bce83ee95afc687
+@|com/example/examplemod/ExampleMod.java|8|30|com.example.examplemod|package|com.example.examplemod|(file)
+Class Start: com.example.examplemod.ExampleMod
+   @|com/example/examplemod/ExampleMod.java|343|346|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|com/example/examplemod/ExampleMod.java|347|352|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/example/examplemod/ExampleMod.java|355|365|ExampleMod|class|com.example.examplemod.ExampleMod|false
+   @|com/example/examplemod/ExampleMod.java|366|371|MODID|field|com.example.examplemod.ExampleMod|MODID
+   @|com/example/examplemod/ExampleMod.java|373|377|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/example/examplemod/ExampleMod.java|380|390|ExampleMod|class|com.example.examplemod.ExampleMod|false
+   @|com/example/examplemod/ExampleMod.java|391|395|NAME|field|com.example.examplemod.ExampleMod|NAME
+   @|com/example/examplemod/ExampleMod.java|397|404|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/example/examplemod/ExampleMod.java|407|417|ExampleMod|class|com.example.examplemod.ExampleMod|false
+   @|com/example/examplemod/ExampleMod.java|418|425|VERSION|field|com.example.examplemod.ExampleMod|VERSION
+   @|com/example/examplemod/ExampleMod.java|440|450|ExampleMod|class|com.example.examplemod.ExampleMod|false
+   @|com/example/examplemod/ExampleMod.java|477|483|String|class|java.lang.String|false
+   @|com/example/examplemod/ExampleMod.java|477|483|String|class|java.lang.String|false
+   @|com/example/examplemod/ExampleMod.java|484|489|MODID|field|com.example.examplemod.ExampleMod|MODID|
+   @|com/example/examplemod/ExampleMod.java|530|536|String|class|java.lang.String|false
+   @|com/example/examplemod/ExampleMod.java|530|536|String|class|java.lang.String|false
+   @|com/example/examplemod/ExampleMod.java|537|541|NAME|field|com.example.examplemod.ExampleMod|NAME|
+   @|com/example/examplemod/ExampleMod.java|583|589|String|class|java.lang.String|false
+   @|com/example/examplemod/ExampleMod.java|583|589|String|class|java.lang.String|false
+   @|com/example/examplemod/ExampleMod.java|590|597|VERSION|field|com.example.examplemod.ExampleMod|VERSION|
+   @|com/example/examplemod/ExampleMod.java|627|633|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/example/examplemod/ExampleMod.java|627|633|Logger|class|org.apache.logging.log4j.Logger|false
+   @|com/example/examplemod/ExampleMod.java|634|640|logger|field|com.example.examplemod.ExampleMod|logger|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/example/examplemod/ExampleMod.java|711|716|event|param|com.example.examplemod.ExampleMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/example/examplemod/ExampleMod.java|648|660|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/example/examplemod/ExampleMod.java|677|684|preInit|method|com.example.examplemod.ExampleMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/example/examplemod/ExampleMod.java|685|710|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/example/examplemod/ExampleMod.java|732|738|logger|field|com.example.examplemod.ExampleMod|logger
+      @|com/example/examplemod/ExampleMod.java|741|746|event|param|com.example.examplemod.ExampleMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/example/examplemod/ExampleMod.java|747|756|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/example/examplemod/ExampleMod.java|829|834|event|param|com.example.examplemod.ExampleMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/example/examplemod/ExampleMod.java|772|784|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/example/examplemod/ExampleMod.java|801|805|init|method|com.example.examplemod.ExampleMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/example/examplemod/ExampleMod.java|806|828|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|com/example/examplemod/ExampleMod.java|879|885|logger|field|com.example.examplemod.ExampleMod|logger
+      @|com/example/examplemod/ExampleMod.java|886|890|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|com/example/examplemod/ExampleMod.java|911|917|Blocks|class|net.minecraft.init.Blocks|false
+      @|com/example/examplemod/ExampleMod.java|918|922|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|com/example/examplemod/ExampleMod.java|923|938|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.example.examplemod.ExampleMod
+endProcessing "com/example/examplemod/ExampleMod.java"
+
