@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-10-10 11:26:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2019-10-10 11:26:32 +0200"
+    },
+    "done": false
+  }
+}

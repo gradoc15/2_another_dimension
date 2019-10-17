@@ -1,0 +1,34 @@
+{
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2019-09-19 11:32:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2019-09-19 11:32:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log2": "2019-09-19 11:32:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2019-09-19 11:32:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2019-09-19 11:32:23 +0200",
+      "swampland": "2019-09-19 11:30:46 +0200",
+      "plains": "2019-09-19 11:30:15 +0200"
+    },
+    "done": false
+  }
+}
