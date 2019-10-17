@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "default": {
+    "model": "demomod:oneblock"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,6 +1,6 @@
 Processing 2 files
 Start Processing: at/kaindorf/demomod/DemoMod.java
-Rename field net/minecraft/init/Blocks/DIRT[895,899]::DIRT->field_150346_d
+Rename field net/minecraft/init/Blocks/DIRT[903,907]::DIRT->field_150346_d
 Import: net.minecraft.init.Blocks
 Import: net.minecraftforge.fml.common.Mod
 Import: net.minecraftforge.fml.common.Mod.EventHandler

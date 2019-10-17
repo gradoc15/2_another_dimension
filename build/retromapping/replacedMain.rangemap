@@ -1,8 +1,8 @@
-Unsupposrted library path: C:\Users\User\Documents\Schule\4BHIF\Games\Minecraft\DemoMod\build\classes\api
-Unsupposrted library path: C:\Users\User\Documents\Schule\4BHIF\Games\Minecraft\DemoMod\build\resources\api
+Unsupposrted library path: D:\_VERTIEFUNG\GameProgramming\DemoMod\build\classes\java\api
+Unsupposrted library path: D:\_VERTIEFUNG\GameProgramming\DemoMod\build\resources\api
 Symbol range map extraction starting
 Processing 2 files
-startProcessing "at/kaindorf/demomod/DemoMod.java" md5: 76003837fa07f5996368b7f1b2dfcb3b
+startProcessing "at/kaindorf/demomod/DemoMod.java" md5: fb454d865cc89aaaae06431a5ab1e35f
 @|at/kaindorf/demomod/DemoMod.java|8|27|at.kaindorf.demomod|package|at.kaindorf.demomod|(file)
 Class Start: at.kaindorf.demomod.DemoMod
    @|at/kaindorf/demomod/DemoMod.java|340|343|Mod|class|net.minecraftforge.fml.common.Mod|false
@@ -19,34 +19,34 @@ Class Start: at.kaindorf.demomod.DemoMod
    @|at/kaindorf/demomod/DemoMod.java|462|468|String|class|java.lang.String|false
    @|at/kaindorf/demomod/DemoMod.java|462|468|String|class|java.lang.String|false
    @|at/kaindorf/demomod/DemoMod.java|469|474|MODID|field|at.kaindorf.demomod.DemoMod|MODID|
-   @|at/kaindorf/demomod/DemoMod.java|512|518|String|class|java.lang.String|false
-   @|at/kaindorf/demomod/DemoMod.java|512|518|String|class|java.lang.String|false
-   @|at/kaindorf/demomod/DemoMod.java|519|523|NAME|field|at.kaindorf.demomod.DemoMod|NAME|
-   @|at/kaindorf/demomod/DemoMod.java|560|566|String|class|java.lang.String|false
-   @|at/kaindorf/demomod/DemoMod.java|560|566|String|class|java.lang.String|false
-   @|at/kaindorf/demomod/DemoMod.java|567|574|VERSION|field|at.kaindorf.demomod.DemoMod|VERSION|
-   @|at/kaindorf/demomod/DemoMod.java|604|610|Logger|class|org.apache.logging.log4j.Logger|false
-   @|at/kaindorf/demomod/DemoMod.java|604|610|Logger|class|org.apache.logging.log4j.Logger|false
-   @|at/kaindorf/demomod/DemoMod.java|611|617|logger|field|at.kaindorf.demomod.DemoMod|logger|
+   @|at/kaindorf/demomod/DemoMod.java|515|521|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|515|521|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|522|526|NAME|field|at.kaindorf.demomod.DemoMod|NAME|
+   @|at/kaindorf/demomod/DemoMod.java|568|574|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|568|574|String|class|java.lang.String|false
+   @|at/kaindorf/demomod/DemoMod.java|575|582|VERSION|field|at.kaindorf.demomod.DemoMod|VERSION|
+   @|at/kaindorf/demomod/DemoMod.java|612|618|Logger|class|org.apache.logging.log4j.Logger|false
+   @|at/kaindorf/demomod/DemoMod.java|612|618|Logger|class|org.apache.logging.log4j.Logger|false
+   @|at/kaindorf/demomod/DemoMod.java|619|625|logger|field|at.kaindorf.demomod.DemoMod|logger|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|at/kaindorf/demomod/DemoMod.java|688|693|event|param|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|at/kaindorf/demomod/DemoMod.java|625|637|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|at/kaindorf/demomod/DemoMod.java|654|661|preInit|method|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|at/kaindorf/demomod/DemoMod.java|662|687|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-      @|at/kaindorf/demomod/DemoMod.java|709|715|logger|field|at.kaindorf.demomod.DemoMod|logger
-      @|at/kaindorf/demomod/DemoMod.java|718|723|event|param|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|at/kaindorf/demomod/DemoMod.java|724|733|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|at/kaindorf/demomod/DemoMod.java|696|701|event|param|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|at/kaindorf/demomod/DemoMod.java|633|645|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|at/kaindorf/demomod/DemoMod.java|662|669|preInit|method|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|at/kaindorf/demomod/DemoMod.java|670|695|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|at/kaindorf/demomod/DemoMod.java|717|723|logger|field|at.kaindorf.demomod.DemoMod|logger
+      @|at/kaindorf/demomod/DemoMod.java|726|731|event|param|at.kaindorf.demomod.DemoMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|at/kaindorf/demomod/DemoMod.java|732|741|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|at/kaindorf/demomod/DemoMod.java|806|811|event|param|at.kaindorf.demomod.DemoMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|at/kaindorf/demomod/DemoMod.java|749|761|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
-      @|at/kaindorf/demomod/DemoMod.java|778|782|init|method|at.kaindorf.demomod.DemoMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|at/kaindorf/demomod/DemoMod.java|783|805|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
-      @|at/kaindorf/demomod/DemoMod.java|856|862|logger|field|at.kaindorf.demomod.DemoMod|logger
-      @|at/kaindorf/demomod/DemoMod.java|863|867|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
-      @|at/kaindorf/demomod/DemoMod.java|888|894|Blocks|class|net.minecraft.init.Blocks|false
-      @|at/kaindorf/demomod/DemoMod.java|895|899|DIRT|field|net.minecraft.init.Blocks|DIRT
-      @|at/kaindorf/demomod/DemoMod.java|900|915|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|at/kaindorf/demomod/DemoMod.java|814|819|event|param|at.kaindorf.demomod.DemoMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|at/kaindorf/demomod/DemoMod.java|757|769|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|at/kaindorf/demomod/DemoMod.java|786|790|init|method|at.kaindorf.demomod.DemoMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|at/kaindorf/demomod/DemoMod.java|791|813|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|at/kaindorf/demomod/DemoMod.java|864|870|logger|field|at.kaindorf.demomod.DemoMod|logger
+      @|at/kaindorf/demomod/DemoMod.java|871|875|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|at/kaindorf/demomod/DemoMod.java|896|902|Blocks|class|net.minecraft.init.Blocks|false
+      @|at/kaindorf/demomod/DemoMod.java|903|907|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|at/kaindorf/demomod/DemoMod.java|908|923|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
 Class End  : at.kaindorf.demomod.DemoMod
 endProcessing "at/kaindorf/demomod/DemoMod.java"
