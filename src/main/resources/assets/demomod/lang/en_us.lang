@@ -1,4 +1,5 @@
 tile.oneblock.name=One Block
+tile.zeroblock.name=Zero Block
 item.graykey.name=Gray Key
 item.hexasword.name=Hexa Sword
 item.binarysword.name=Binary Sword
