@@ -2,6 +2,7 @@ package at.kaindorf.demomod.proxy;
 
 import at.kaindorf.demomod.AnotherDimensionMod;
 import at.kaindorf.demomod.blocks.OneBlock;
+import at.kaindorf.demomod.items.CompactedPickaxe;
 import at.kaindorf.demomod.items.HexaSwordItem;
 import at.kaindorf.demomod.items.KeyItem;
 import net.minecraft.block.Block;
@@ -22,6 +23,7 @@ public class CommonProxy {
 
     public static Item KEY_GRAY = new KeyItem("graykey");
     public static Block ONE_BLOCK = new OneBlock("oneblock");
+    public static Item Test_Pickaxe = new CompactedPickaxe("testpickaxe");
 
     public void preInit(FMLPreInitializationEvent e){}
     public void init(FMLInitializationEvent e){}
@@ -40,6 +42,8 @@ public class CommonProxy {
         event.getRegistry().registerAll(AnotherDimensionMod.hexasword);
         event.getRegistry().registerAll(AnotherDimensionMod.binarysword);
 
+        event.getRegistry().registerAll(Test_Pickaxe);
+
     }
 
     @SubscribeEvent
@@ -54,6 +58,8 @@ public class CommonProxy {
         registerRender(AnotherDimensionMod.hexasword);
         registerRender(AnotherDimensionMod.binarysword);
         registerRender(Item.getItemFromBlock(ONE_BLOCK));
+
+        registerRender(Test_Pickaxe);
     }
 
     public static void registerRender(Item item) {
