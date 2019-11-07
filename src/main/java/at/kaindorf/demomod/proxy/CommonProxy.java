@@ -28,6 +28,7 @@ public class CommonProxy {
     public static Item Compacted_Iron = new CompactedIron("compactediron");
     public static Item Compacted_Gold = new CompactedGold("compactedgold");
 
+
     public void preInit(FMLPreInitializationEvent e){}
     public void init(FMLInitializationEvent e){}
     public void postInit(FMLPostInitializationEvent e){}
@@ -47,6 +48,7 @@ public class CommonProxy {
 
         //CompactedThings
         event.getRegistry().registerAll(Compacted_Diamond, Compacted_Iron, Compacted_Gold);
+        event.getRegistry().registerAll(AnotherDimensionMod.compacteddiamondpickaxe);
         event.getRegistry().registerAll(Test_Pickaxe);
 
     }
@@ -68,6 +70,8 @@ public class CommonProxy {
         registerRender(Compacted_Diamond);
         registerRender(Compacted_Iron);
         registerRender(Compacted_Gold);
+
+        registerRender(AnotherDimensionMod.compacteddiamondpickaxe);
         registerRender(Test_Pickaxe);
     }
 

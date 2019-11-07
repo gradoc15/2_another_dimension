@@ -2,6 +2,7 @@ package at.kaindorf.demomod;
 
 import at.kaindorf.demomod.blocks.OneBlock;
 import at.kaindorf.demomod.items.BinarySwordItem;
+import at.kaindorf.demomod.items.CompactedDiamondPickaxe;
 import at.kaindorf.demomod.items.HexaSwordItem;
 import at.kaindorf.demomod.proxy.CommonProxy;
 import net.minecraft.block.Block;
@@ -9,6 +10,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
@@ -31,7 +33,10 @@ public class AnotherDimensionMod
     @Mod.Instance
     public static AnotherDimensionMod instance;
     public static Item.ToolMaterial toolMaterial;
+    //Swords
     public static ItemSword hexasword, binarysword;
+    //CompactedTools
+    public static ItemPickaxe compacteddiamondpickaxe;
 
     @SidedProxy(clientSide = "at.kaindorf.demomod.proxy.ClientProxy",
                 serverSide = "at.kaindorf.demomod.proxy.ServerProxy")
@@ -45,11 +50,15 @@ public class AnotherDimensionMod
        //SWORDS:
         toolMaterial = EnumHelper.addToolMaterial("Hexa Sword", 4, 10000, 20.0F,
                 5.0F, 15);
-       hexasword = new HexaSwordItem("hexasword");
+        hexasword = new HexaSwordItem("hexasword");
 
         toolMaterial = EnumHelper.addToolMaterial("Binary Sword", 2, 8500, 15.0F,
                 3.5F, 15);
         binarysword = new BinarySwordItem("binarysword");
+
+        //CompactedTools
+        toolMaterial = EnumHelper.addToolMaterial("Compacted Diamond", 5,31240,20.0F, 3.5F, 15);
+        compacteddiamondpickaxe = new CompactedDiamondPickaxe("compacteddiamondpickaxe");
 
     }
 
