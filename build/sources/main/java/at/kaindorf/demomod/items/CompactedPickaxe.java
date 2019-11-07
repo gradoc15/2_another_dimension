@@ -12,6 +12,5 @@ public class CompactedPickaxe extends ItemPickaxe
         super(ToolMaterial.DIAMOND);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.TOOLS);
-    }
+        setCreativeTab(CreativeTabs.TOOLS); }
 }

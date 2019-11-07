@@ -2,9 +2,7 @@ package at.kaindorf.demomod.proxy;
 
 import at.kaindorf.demomod.AnotherDimensionMod;
 import at.kaindorf.demomod.blocks.OneBlock;
-import at.kaindorf.demomod.items.CompactedPickaxe;
-import at.kaindorf.demomod.items.HexaSwordItem;
-import at.kaindorf.demomod.items.KeyItem;
+import at.kaindorf.demomod.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -25,6 +23,11 @@ public class CommonProxy {
     public static Block ONE_BLOCK = new OneBlock("oneblock");
     public static Item Test_Pickaxe = new CompactedPickaxe("testpickaxe");
 
+    //CompactedMaterials
+    public static Item Compacted_Diamond = new CompactedDiamond("compacteddiamond");
+    public static Item Compacted_Iron = new CompactedIron("compactediron");
+    public static Item Compacted_Gold = new CompactedGold("compactedgold");
+
     public void preInit(FMLPreInitializationEvent e){}
     public void init(FMLInitializationEvent e){}
     public void postInit(FMLPostInitializationEvent e){}
@@ -42,6 +45,8 @@ public class CommonProxy {
         event.getRegistry().registerAll(AnotherDimensionMod.hexasword);
         event.getRegistry().registerAll(AnotherDimensionMod.binarysword);
 
+        //CompactedThings
+        event.getRegistry().registerAll(Compacted_Diamond, Compacted_Iron, Compacted_Gold);
         event.getRegistry().registerAll(Test_Pickaxe);
 
     }
@@ -59,6 +64,10 @@ public class CommonProxy {
         registerRender(AnotherDimensionMod.binarysword);
         registerRender(Item.getItemFromBlock(ONE_BLOCK));
 
+        //CompactedThings
+        registerRender(Compacted_Diamond);
+        registerRender(Compacted_Iron);
+        registerRender(Compacted_Gold);
         registerRender(Test_Pickaxe);
     }
 
