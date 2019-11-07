@@ -3,6 +3,7 @@ package at.kaindorf.demomod;
 import at.kaindorf.demomod.blocks.OneBlock;
 import at.kaindorf.demomod.items.BinarySwordItem;
 import at.kaindorf.demomod.items.CompactedDiamondPickaxe;
+import at.kaindorf.demomod.items.CompactedGoldPickaxe;
 import at.kaindorf.demomod.items.HexaSwordItem;
 import at.kaindorf.demomod.proxy.CommonProxy;
 import net.minecraft.block.Block;
@@ -36,7 +37,7 @@ public class AnotherDimensionMod
     //Swords
     public static ItemSword hexasword, binarysword;
     //CompactedTools
-    public static ItemPickaxe compacteddiamondpickaxe;
+    public static ItemPickaxe compacteddiamondpickaxe, compactedgoldpickaxe;
 
     @SidedProxy(clientSide = "at.kaindorf.demomod.proxy.ClientProxy",
                 serverSide = "at.kaindorf.demomod.proxy.ServerProxy")
@@ -59,6 +60,9 @@ public class AnotherDimensionMod
         //CompactedTools
         toolMaterial = EnumHelper.addToolMaterial("Compacted Diamond", 5,31240,20.0F, 3.5F, 15);
         compacteddiamondpickaxe = new CompactedDiamondPickaxe("compacteddiamondpickaxe");
+
+        toolMaterial = EnumHelper.addToolMaterial("Compacted Diamond", 5,31240,20.0F, 3.5F, 15);
+        compactedgoldpickaxe = new CompactedGoldPickaxe("compactedgoldpickaxe");
 
     }
 
