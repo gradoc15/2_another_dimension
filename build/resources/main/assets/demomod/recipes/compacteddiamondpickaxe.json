@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "A": {
+      "item": "demomod:compacteddiamond"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demomod:compacteddiamondpickaxe",
+    "count": 1,
+    "data": 0
+  }
+}

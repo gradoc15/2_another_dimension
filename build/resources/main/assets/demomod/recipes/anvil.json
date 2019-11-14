@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "count": 10,
+    "data": 0
+  }
+}

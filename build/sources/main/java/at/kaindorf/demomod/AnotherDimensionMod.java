@@ -1,7 +1,10 @@
 package at.kaindorf.demomod;
 
 import at.kaindorf.demomod.blocks.OneBlock;
-import at.kaindorf.demomod.items.*;
+import at.kaindorf.demomod.items.BinarySwordItem;
+import at.kaindorf.demomod.items.CompactedDiamondPickaxe;
+import at.kaindorf.demomod.items.CompactedGoldPickaxe;
+import at.kaindorf.demomod.items.HexaSwordItem;
 import at.kaindorf.demomod.proxy.CommonProxy;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -55,14 +58,29 @@ public class AnotherDimensionMod
         binarysword = new BinarySwordItem("binarysword");
 
         //CompactedTools
-        toolMaterial = EnumHelper.addToolMaterial("Compacted Diamond", 5,31240, Item.ToolMaterial.DIAMOND.getEfficiency()*1.5f, 3.5F, 15);
+        toolMaterial = EnumHelper.addToolMaterial("Compacted Diamond",
+                Item.ToolMaterial.DIAMOND.getHarvestLevel(),
+                Item.ToolMaterial.DIAMOND.getMaxUses()*20,
+                Item.ToolMaterial.DIAMOND.getEfficiency()*3f,
+                Item.ToolMaterial.DIAMOND.getAttackDamage()*3f,
+                Item.ToolMaterial.DIAMOND.getEnchantability());
         compacteddiamondpickaxe = new CompactedDiamondPickaxe("compacteddiamondpickaxe");
 
-        toolMaterial = EnumHelper.addToolMaterial("Compacted Gold", 5,31240, Item.ToolMaterial.GOLD.getEfficiency()*1.5f, 3.5F, 15);
+        toolMaterial = EnumHelper.addToolMaterial("Compacted Gold",
+                Item.ToolMaterial.GOLD.getHarvestLevel(),
+                Item.ToolMaterial.GOLD.getMaxUses()*20,
+                Item.ToolMaterial.GOLD.getEfficiency()*3f,
+                Item.ToolMaterial.GOLD.getAttackDamage()*3f,
+                Item.ToolMaterial.GOLD.getEnchantability());
         compactedgoldpickaxe = new CompactedGoldPickaxe("compactedgoldpickaxe");
 
-        toolMaterial = EnumHelper.addToolMaterial("Compacted Iron", 5, 31240, Item.ToolMaterial.IRON.getEfficiency()*1.5f, 3.5f,15);
-        compactedironpickaxe = new CompactedIronPickaxe("compactedironpickaxe");
+        toolMaterial = EnumHelper.addToolMaterial("Compacted Iron",
+                Item.ToolMaterial.IRON.getHarvestLevel(),
+                Item.ToolMaterial.IRON.getMaxUses()*20,
+                Item.ToolMaterial.IRON.getEfficiency()*3f,
+                Item.ToolMaterial.IRON.getAttackDamage()*3f,
+                Item.ToolMaterial.IRON.getEnchantability());
+        compactedironpickaxe = new CompactedGoldPickaxe("compactedironpickaxe");
 
     }
 
