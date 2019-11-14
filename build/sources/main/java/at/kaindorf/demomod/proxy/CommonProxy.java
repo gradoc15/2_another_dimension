@@ -48,7 +48,7 @@ public class CommonProxy {
 
         //CompactedThings
         event.getRegistry().registerAll(Compacted_Diamond, Compacted_Iron, Compacted_Gold);
-        event.getRegistry().registerAll(AnotherDimensionMod.compacteddiamondpickaxe, AnotherDimensionMod.compactedgoldpickaxe);
+        event.getRegistry().registerAll(AnotherDimensionMod.compacteddiamondpickaxe, AnotherDimensionMod.compactedgoldpickaxe, AnotherDimensionMod.compactedironpickaxe);
         event.getRegistry().registerAll(Test_Pickaxe);
 
     }
@@ -73,6 +73,7 @@ public class CommonProxy {
 
         registerRender(AnotherDimensionMod.compacteddiamondpickaxe);
         registerRender(AnotherDimensionMod.compactedgoldpickaxe);
+        registerRender(AnotherDimensionMod.compactedironpickaxe);
         registerRender(Test_Pickaxe);
     }
 
