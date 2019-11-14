@@ -53,6 +53,8 @@ public class CommonProxy {
 
     }
 
+
+
     @SubscribeEvent
     public static void registerItemBlocks(RegistryEvent.Register<Item> event){
         event.getRegistry().register(new ItemBlock(ONE_BLOCK).setRegistryName(ONE_BLOCK.getRegistryName()));
