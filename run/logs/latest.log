@@ -190,3 +190,13 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 [11:48:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] /gamemode, /gameruleinecraftFormatting
 [11:48:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player322: Set own game mode to Creative Mode]inecraftFormatting
 [11:48:23] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative ModeinecraftFormatting
+[12:09:30] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!inecraftFormatting
+[12:09:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping serverinecraftFormatting
+[12:09:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving playersinecraftFormatting
+[12:09:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worldsinecraftFormatting
+[12:09:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworldinecraftFormatting
+[12:09:31] [Server thread/INFO] [FML]: Unloading dimension 0inecraftFormatting
+[12:09:31] [Server thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[12:09:31] [Server thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[12:09:31] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...inecraftFormatting
+[12:09:31] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.cominecraftFormatting
