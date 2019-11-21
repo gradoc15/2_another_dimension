@@ -2,6 +2,9 @@ package at.kaindorf.demomod.proxy;
 
 import at.kaindorf.demomod.AnotherDimensionMod;
 import at.kaindorf.demomod.blocks.OneBlock;
+import at.kaindorf.demomod.blocks.ZeroBlock;
+import at.kaindorf.demomod.items.HexaSwordItem;
+import at.kaindorf.demomod.items.KeyItem;
 import at.kaindorf.demomod.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -21,6 +24,7 @@ public class CommonProxy {
 
     public static Item KEY_GRAY = new KeyItem("graykey");
     public static Block ONE_BLOCK = new OneBlock("oneblock");
+    public static Block ZERO_BLOCK = new ZeroBlock("zeroblock");
     public static Item Test_Pickaxe = new CompactedPickaxe("testpickaxe");
 
     //CompactedMaterials
@@ -34,9 +38,10 @@ public class CommonProxy {
     public void postInit(FMLPostInitializationEvent e){}
 
     @SubscribeEvent
-    public static void registerBlocks(RegistryEvent.Register<Block> event){
+    public static void registerBlocks(RegistryEvent.Register<Block> event)
+    {
         event.getRegistry().registerAll(ONE_BLOCK);
-
+        event.getRegistry().registerAll(ZERO_BLOCK);
     }
 
     @SubscribeEvent
@@ -53,9 +58,12 @@ public class CommonProxy {
 
     }
 
+
+
     @SubscribeEvent
-    public static void registerItemBlocks(RegistryEvent.Register<Item> event){
+    public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new ItemBlock(ONE_BLOCK).setRegistryName(ONE_BLOCK.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ZERO_BLOCK).setRegistryName(ZERO_BLOCK.getRegistryName()));
     }
 
     @SubscribeEvent
@@ -65,6 +73,7 @@ public class CommonProxy {
         registerRender(AnotherDimensionMod.hexasword);
         registerRender(AnotherDimensionMod.binarysword);
         registerRender(Item.getItemFromBlock(ONE_BLOCK));
+        registerRender(Item.getItemFromBlock(ZERO_BLOCK));
 
         //CompactedThings
         registerRender(Compacted_Diamond);
@@ -80,5 +89,6 @@ public class CommonProxy {
     public static void registerRender(Item item) {
         ModelLoader.setCustomModelResourceLocation(item, 0,
                 new ModelResourceLocation(item.getRegistryName(), "inventory"));
+
     }
 }

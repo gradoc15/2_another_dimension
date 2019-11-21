@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AiA",
+    " i "
+  ],
+  "key": {
+    "A": {
+      "item": "demomod:oneblock"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demomod:hexasword",
+    "count": 1,
+    "data": 0
+  }
+}
