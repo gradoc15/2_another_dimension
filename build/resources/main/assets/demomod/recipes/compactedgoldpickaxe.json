@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "A": {
+      "item": "demomod:compactedgold"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "demomod:compactedgolddpickaxe",
+    "count": 1,
+    "data": 0
+  }
+}
