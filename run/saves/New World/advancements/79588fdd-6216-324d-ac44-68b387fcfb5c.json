@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2019-11-07 11:56:24 +0100"
@@ -50,12 +51,21 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2019-11-07 11:56:24 +0100"
+=======
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2019-10-15 15:06:35 +0200"
+>>>>>>> master
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+<<<<<<< HEAD
       "plains": "2019-11-07 11:56:24 +0100"
+=======
+      "plains": "2019-10-15 15:06:20 +0200"
+>>>>>>> master
     },
     "done": false
   }

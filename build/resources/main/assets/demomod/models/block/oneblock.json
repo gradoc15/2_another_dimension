@@ -1,6 +1,10 @@
 {
   "parent": "block/cube_all",
+<<<<<<< HEAD
   "textures": {
     "all" : "demomod:blocks/oneblock"
   }
+=======
+  "textures": { "all" : "demomod:blocks/oneblock"  }
+>>>>>>> master
 }

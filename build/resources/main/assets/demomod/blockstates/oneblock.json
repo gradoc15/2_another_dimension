@@ -1,6 +1,10 @@
 {
   "forge_marker": 1,
+<<<<<<< HEAD
   "defaults": {
+=======
+  "default": {
+>>>>>>> master
     "model": "demomod:oneblock"
   },
   "variants": {

@@ -31,7 +31,11 @@ public class AnotherDimensionMod
     @Mod.Instance
     public static AnotherDimensionMod instance;
     public static Item.ToolMaterial toolMaterial;
+<<<<<<< HEAD
     public static Item hexasword, binarysword;
+=======
+    public static ItemSword hexasword, binarysword;
+>>>>>>> master
 
     @SidedProxy(clientSide = "at.kaindorf.demomod.proxy.ClientProxy",
                 serverSide = "at.kaindorf.demomod.proxy.ServerProxy")

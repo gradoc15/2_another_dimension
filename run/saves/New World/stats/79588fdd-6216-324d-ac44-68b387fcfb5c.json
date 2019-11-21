@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"stat.flyOneCm":1245,"stat.pickup.minecraft.pumpkin":1,"stat.walkOneCm":929,"stat.jump":9,"stat.playOneMinute":2668,"stat.craftItem.minecraft.pumpkin":1,"stat.fallOneCm":418,"stat.mineBlock.minecraft.pumpkin":1,"stat.pickup.minecraft.porkchop":1,"stat.useItem.minecraft.diamond_pickaxe":1,"stat.timeSinceDeath":2668,"stat.sprintOneCm":800,"stat.useItem.minecraft.stone_slab2":2,"stat.craftingTableInteraction":3}
+=======
+{"stat.flyOneCm":432,"stat.walkOneCm":1075,"stat.jump":9,"stat.pickup.minecraft.egg":1,"stat.playOneMinute":455,"stat.sneakTime":44,"stat.crouchOneCm":111,"stat.timeSinceDeath":455,"stat.sprintOneCm":864,"stat.useItem.minecraft.stone_slab2":12}
+>>>>>>> master
