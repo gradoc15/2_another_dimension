@@ -3,6 +3,8 @@ package at.kaindorf.demomod.proxy;
 import at.kaindorf.demomod.AnotherDimensionMod;
 import at.kaindorf.demomod.init.ModItems;
 import at.kaindorf.demomod.items.BinarySwordItem;
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -21,12 +23,12 @@ public class ClientProxy extends CommonProxy {
     public void preInit(FMLPreInitializationEvent e) {
         super.preInit(e);
         GameRegistry.addShapedRecipe(new ResourceLocation("binarysword"), null,
-                new ItemStack(Items.APPLE),
+                new ItemStack(CommonProxy.ZERO_BLOCK),
                 "X",
                 "Y",
                 "Z",
-                'X', ZERO_BLOCK,
-                'Y', ONE_BLOCK,
+                'X', Blocks.DIRT,
+                'Y', Blocks.DIAMOND_BLOCK,
                 'Z', Items.STICK);
     }
 
